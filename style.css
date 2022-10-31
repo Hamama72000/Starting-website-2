@@ -667,10 +667,6 @@ a {
     font-size: 20px;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -713,8 +709,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+   display: flex;
+   justify-content: space-evenly;
+   text-decoration: none;
 }
 
 h2 {
@@ -816,6 +813,11 @@ h4 {
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
+}
+
+.coordonnées {
+    text-align: center;
+    font-size: 22px;
 }
 
 .icon-dark-slate-blue {
