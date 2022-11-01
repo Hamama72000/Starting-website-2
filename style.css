@@ -320,7 +320,7 @@ a:hover {
 .contact a {
     text-decoration:none;
     margin-right: 150px;
-    margin-top: -19px;
+    margin-top: -79px;
 }
 
 .nav > li {
@@ -354,6 +354,8 @@ a:hover {
     z-index: 2;
 }
 
+
+/* Nouvelles Modifications apportées */
 cite {
     font-size: 16px;
     font-weight: bold;
@@ -383,7 +385,15 @@ cite {
     font-size: 38px;
 }
 
-width:
+.formulaire {
+    text-align: center;
+    font-size : 22px;
+    margin-top: -90px;
+}
+
+.lyon {
+    margin: 0 10px 0 -50px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -532,7 +542,7 @@ button {
     display:flex;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 30%;
+    width: 100%;
     padding: 10px 20px;
     margin: 10px 0 10px 0;
 }
@@ -786,6 +796,7 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
+    display:flex;
 }
 
 .bgc-dark-slate-blue {
