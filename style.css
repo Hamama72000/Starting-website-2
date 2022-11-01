@@ -383,7 +383,7 @@ cite {
     font-size: 38px;
 }
 
-
+width:
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -532,7 +532,7 @@ button {
     display:flex;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 100%;
+    width: 30%;
     padding: 10px 20px;
     margin: 10px 0 10px 0;
 }
@@ -803,7 +803,9 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    border-color: transparent;
 }
+
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
