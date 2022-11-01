@@ -529,8 +529,12 @@ button {
 }
 
 .form-control {
+    display:flex;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
 }
 
 .scrollToTop {
