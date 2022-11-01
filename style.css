@@ -367,6 +367,7 @@ cite {
 .design {
     display:flex;
     justify-content: center;
+    margin-top:5px;
     font-size: 35px;
     color: white;
 }
