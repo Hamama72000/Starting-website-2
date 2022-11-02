@@ -394,12 +394,12 @@ cite {
 }
 
 .lyon {
-    margin: 0 250px 0 -50px;
+    margin: 0 450px 0 -50px;
 }
 
 .ville-lyon{
     height: 100%;
-    width: 130%;
+    width: 150%;
     object-fit: cover;
 }
 
@@ -558,7 +558,7 @@ button {
     display:flex;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 80%;
+    width: 100%;
     padding: 10px 20px;
     margin: 10px 0 10px 0;
 }
@@ -747,16 +747,8 @@ p {
 
 .social {
     display: block;
-    max-width: 200px;
-    margin: 2em auto;
-}
-
-.social2 {
-    display: flex;
     max-width: 400px;
     margin: 2em auto;
-    gap: 6rem;
-    text-decoration:none;
 }
 
 h2 {
@@ -796,7 +788,6 @@ h4 {
 .white {
     color: #FFFFFF!important;
     font-size: 16px;
-    margin-bottom: -35px;
 }
 
 .portfolio-thumb {
@@ -852,11 +843,11 @@ h4 {
 }
 
 .ltc-white {
-    color: white!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-    color: #a5461a!important;
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
@@ -870,7 +861,6 @@ h4 {
 .coordonnées {
     text-align: center;
     font-size: 22px;
-    margin-bottom:-10px;
 }
 
 .icon-dark-slate-blue {
