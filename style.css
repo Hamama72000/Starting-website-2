@@ -411,6 +411,10 @@ cite {
   display: none;
 }
 
+.agence {
+  font-size: 22px;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
