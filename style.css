@@ -250,7 +250,8 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 26px;
 }
 
 .d-bloc .panel .btn-wire,
@@ -516,7 +517,6 @@ nav .caret {
 
 button {
   outline: none !important;
-  display: none;
 }
 
 .btn-rd {
@@ -923,6 +923,8 @@ h4 {
   }
 }
 
+
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
@@ -962,7 +964,27 @@ h4 {
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
   }
+
+  .contact {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: -65px;
+  } 
+
+  .ville-lyon {
+    display: none
+  }
+
+  .lyon {
+    display: none;
+  }
+
+  .form-control{
+    width: 90%}
+  }
 }
+
+
 
 @media (max-width: 767px) {
   .page-container {
@@ -1110,9 +1132,8 @@ h4 {
     font-size: 20px;
   }
 
-.button {
-  display: flex;
-}
+
+
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
