@@ -751,9 +751,10 @@ p {
 }
 
 .social {
-  display: block;
+  display: flex;
   max-width: 200px;
   margin: 2em auto;
+  gap: 2rem;
 }
 
 .social2 {
@@ -983,6 +984,7 @@ h4 {
     background-attachment: scroll;
   }
   .navbar .nav {
+    display:none;
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
@@ -1038,7 +1040,9 @@ h4 {
   .navbar-brand img {
     max-height: 40px;
     width: auto;
+    margin-top: 40px;
   }
+
   .nav-invert .navbar-header {
     float: none;
     width: 100%;
@@ -1058,8 +1062,7 @@ h4 {
   }
   .bloc-sm,
   .bloc-md {
-    padding-left: 0;
-    padding-right: 0;
+   margin: -30px 0 5px;
   }
   .bloc-tile-2 .container,
   .bloc-tile-3 .container,
@@ -1100,8 +1103,16 @@ h4 {
     width: 180px;
     height: 320px;
   }
-}
 
+  .text-design {
+    display:flex;
+    text-align: center;
+    font-size: 20px;
+  }
+
+.button {
+  display: flex;
+}
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
