@@ -1184,4 +1184,29 @@ p {
   padding: 5px;
 }
 
+.contact{
+  margin:0;
 }
+
+.design {
+  font-size:25px;
+  color: rgb(163, 188, 241);
+}
+
+.text-design {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.formulaire {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+}
+
