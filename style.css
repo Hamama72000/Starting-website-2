@@ -1167,4 +1167,8 @@ h4 {
   padding-top: 0;
   margin-right:0;
 }
+
+.bloc-lg {
+  padding: 20px 50px;
+}
 }
