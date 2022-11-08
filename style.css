@@ -1175,4 +1175,13 @@ h4 {
 .agence {
   font-size: 19px;
 }
+
+.white {
+  font-size: 12px;
+}
+
+p {
+  padding: 5px;
+}
+
 }
