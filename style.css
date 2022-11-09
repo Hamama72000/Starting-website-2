@@ -925,6 +925,11 @@ h4 {
   .nav-center.navbar .nav {
     max-width: 100%;
   }
+
+  .text-design{
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 
@@ -1224,5 +1229,7 @@ p {
   width: 100%;
 }
 
-
+.social {
+  gap: 5rem;
+}
 }
