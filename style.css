@@ -1191,22 +1191,29 @@ p {
 .design {
   font-size:25px;
   color: rgb(163, 188, 241);
+  margin-top: -25px;
 }
 
 .text-design {
   font-size: 15px;
   text-align: center;
   color: white;
+  margin-bottom: 10px;
 }
 
 .formulaire {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 17px;
+  font-weight: bold;
 }
 
 .row {
   margin-right: 0;
   margin-left: 0;
 }
-}
 
+.navbar-collapse {
+  padding-right: 0;
+  padding-left: 0;
+}
+}
